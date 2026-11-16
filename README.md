@@ -1,57 +1,116 @@
-# 📝 Dummy To-Do App
+# To-Do App
 
-> ⚠️ This is a **practice README**. The project below is fake and exists only for learning Markdown.
+![Status](https://img.shields.io/badge/status-in%20development-yellow)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)
 
-A simple to-do list app that helps you keep track of tasks. Add tasks, check them off, and feel productive.
+A lightweight task manager built with HTML, CSS, and JavaScript. Users can add tasks, mark them complete, and filter their list to stay organized.
 
-## ✨ Features
+> **Note:** This repository is a sample project created to demonstrate README structure and Markdown best practices.
 
-- Add and delete tasks
-- Mark tasks as complete
-- Filter by All / Active / Done
-- Dark mode (coming soon)
+## Table of Contents
 
-## 🚀 Getting Started
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Features
+
+- Add, edit, and delete tasks
+- Mark tasks as complete or incomplete
+- Filter tasks by All, Active, or Completed
+- Persist tasks between sessions using local storage
+- Responsive layout for desktop and mobile
+
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Page structure |
+| CSS3 | Styling and responsive layout |
+| JavaScript (ES6) | Application logic |
+| Node.js / npm | Local development server |
+
+## Getting Started
 
 ### Prerequisites
 
-- Node.js 20 or newer
-- A web browser
+- [Node.js](https://nodejs.org/) v20 or later
+- npm (included with Node.js)
 
 ### Installation
 
-```bash
-git clone https://github.com/BigdawgCeejay/readme-practice.git
-cd readme-practice
-npm install
-```
+1. Clone the repository:
 
-### Usage
+   ```bash
+   git clone https://github.com/BigdawgCeejay/readme-practice.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd readme-practice
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+Start the development server:
 
 ```bash
 npm start
 ```
 
-Then open http://localhost:3000 in your browser.
+Then open `http://localhost:3000` in your browser.
 
-## 🛠️ Built With
+## Project Structure
 
-| Tool | Purpose |
-|------|---------|
-| HTML | Page structure |
-| CSS | Styling |
-| JavaScript | App logic |
+```
+readme-practice/
+├── index.html      # Main page
+├── css/
+│   └── styles.css  # Application styles
+├── js/
+│   └── app.js      # Application logic
+├── package.json
+└── README.md
+```
 
-## 🗺️ Roadmap
+## Roadmap
 
-- [x] Create the README
-- [ ] Build the app
-- [ ] Add dark mode
+- [x] Project setup and documentation
+- [ ] Core task management features
+- [ ] Task filtering
+- [ ] Dark mode
+- [ ] Due dates and reminders
 
-## 👤 Author
+## Contributing
 
-**Ceejay**: [GitHub](https://github.com/BigdawgCeejay)
+Contributions are welcome. To contribute:
 
-## 📄 License
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m "Add your feature"`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a pull request
 
-This project is licensed under the MIT License.
+## License
+
+Distributed under the MIT License.
+
+## Contact
+
+**Ceejay**
+GitHub: [@BigdawgCeejay](https://github.com/BigdawgCeejay)
+Project link: [github.com/BigdawgCeejay/readme-practice](https://github.com/BigdawgCeejay/readme-practice)
